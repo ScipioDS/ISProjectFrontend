@@ -1,0 +1,8 @@
+.btn-colors{
+  color: var(--btn-txt-color);
+  background-color: var(--btn-bg-color);
+}
+.card{
+  background-color: var(--btn-bg-color);
+  color: var(--btn-txt-color);
+}

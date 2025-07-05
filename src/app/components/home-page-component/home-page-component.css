@@ -1,0 +1,13 @@
+.card-gradient{
+  background: linear-gradient(
+    25deg,
+    var(--header-bg-color) -90%,
+    var(--bkg-color) 100%
+  );
+  border: 2px solid var(--header-bg-color);
+  color: var(--text-color);
+}
+.btn-colors{
+  color: var(--btn-txt-color);
+  background-color: var(--btn-bg-color);
+}

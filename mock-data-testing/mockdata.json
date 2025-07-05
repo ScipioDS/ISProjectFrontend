@@ -1,0 +1,80 @@
+[{
+  "question": "What is the capital of France?",
+  "answers": [{
+    "answer": "Paris",
+    "isCorrect": true
+  }, {
+    "answer": "London",
+    "isCorrect": false
+  }, {
+    "answer": "Berlin",
+    "isCorrect": false
+  }, {
+    "answer": "Madrid",
+    "isCorrect": false
+  }]
+},
+  {
+    "question": "What is the largest planet in our solar system?",
+    "answers": [
+      {
+        "answer": "Jupiter",
+        "isCorrect": true
+      },
+      {
+        "answer": "Saturn",
+        "isCorrect": false
+      },
+      {
+        "answer": "Earth",
+        "isCorrect": false
+      },
+      {
+        "answer": "Mars",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What is the chemical symbol for water?",
+    "answers": [
+      {
+        "answer": "H2O",
+        "isCorrect": true
+      },
+      {
+        "answer": "CO2",
+        "isCorrect": false
+      },
+      {
+        "answer": "O2",
+        "isCorrect": false
+      },
+      {
+        "answer": "NaCl",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Who wrote 'To Kill a Mockingbird'?",
+    "answers": [
+      {
+        "answer": "Harper Lee",
+        "isCorrect": true
+      },
+      {
+        "answer": "Mark Twain",
+        "isCorrect": false
+      },
+      {
+        "answer": "Ernest Hemingway",
+        "isCorrect": false
+      },
+      {
+        "answer": "F. Scott Fitzgerald",
+        "isCorrect": false
+      }
+    ]
+  }
+]

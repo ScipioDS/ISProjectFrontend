@@ -8,5 +8,7 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.css'
 })
 export class App {
-  protected title = 'ISProject';
+  toggleDarkTheme(): void {
+    document.body.classList.toggle('dark-theme');
+  }
 }

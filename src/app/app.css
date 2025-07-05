@@ -1,0 +1,7 @@
+.header{
+  background-color: var(--header-bg-color);
+  color: var(--btn-txt-color);
+}
+.form-check-label-txt{
+  color: var(--btn-txt-color);
+}
