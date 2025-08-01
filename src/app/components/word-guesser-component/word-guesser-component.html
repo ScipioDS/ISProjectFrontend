@@ -1,0 +1,24 @@
+<div class="container-fluid d-flex flex-column justify-content-center align-items-center">
+  <ng-container *ngFor="let guess of guesses;">
+    <div class="d-flex justify-content-center align-items-center w-100">
+      <ng-container *ngFor="let letter of guess">
+        <div class="letter m-1 d-flex justify-content-center align-items-center"
+             [class.bg-success]="letter.status ==='correct'"
+             [class.bg-warning]="letter.status === 'present'"
+             [class.bg-danger]="letter.status === 'absent'">
+          <div class="h1 text-center m-0"
+          [class.text-white]="letter.status === 'correct'">
+            {{letter.letter}}
+          </div>
+        </div>
+      </ng-container>
+    </div>
+  </ng-container>
+  @if (gameOver) {
+    <div class="d-flex justify-content-center align-items-center w-100">
+      <div class="h1 text-center m-0 mt-5">
+        {{gameWon ? 'Congratulations! You won!' : 'Game Over! Try again!'}}
+      </div>
+    </div>
+  }
+</div>

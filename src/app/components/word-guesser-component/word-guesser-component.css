@@ -1,0 +1,9 @@
+.letter{
+  min-width: 9vh;
+  min-height: 9vh;
+  border: 3px solid var(--header-bg-color);
+  border-radius: 5px;
+}
+.letter > div{
+  color: var(--header-bg-color);
+}
